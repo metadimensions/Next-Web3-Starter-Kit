@@ -2,7 +2,6 @@ import Header from "./Header";
 import React, { useEffect } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Greeter from "./components/Greeter";
 import { useToast } from "@chakra-ui/react";
 
@@ -25,7 +24,6 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Greeter />
-      <Footer />
     </>
   );
 }
